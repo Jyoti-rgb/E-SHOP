@@ -1,9 +1,12 @@
 import React from "react";
-import "./Home.css";
-import Product from "./Product";
+import "../Home/Home.css";
+import Header from '../Header/Header'
+import Product from "../Product/Product";
 
 function Home() {
     return (
+        <>
+        <Header/>
         <div className="home">
             <div className="home__container">
 
@@ -61,6 +64,7 @@ function Home() {
                 </div>
             </div>   
         </div> 
+        </>
     )
 }
 

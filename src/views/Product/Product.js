@@ -1,5 +1,5 @@
 import React from "react";
-import "./Product.css";
+import "../Product/Product.css";
 
 function Product({id, title, image, price, rating}) {
 
@@ -20,7 +20,7 @@ function Product({id, title, image, price, rating}) {
                 </div>
             </div>
 
-            <img src={image} className="product__image" />
+            <img src={image} alt="product_image" className="product__image" />
 
             <button>Add to Basket</button>
         </div>
