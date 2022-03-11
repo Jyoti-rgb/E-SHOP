@@ -14,6 +14,7 @@ const [state,dispatch] = useStateValue();
            item:{
               id:id,
               image:image,
+              title:title,
               price:price,
               rating:rating,
            }, 
